@@ -12,6 +12,7 @@ import edu.berkeley.cs.amplab.carat.android.CaratApplication;
 import edu.berkeley.cs.amplab.carat.android.R;
 import edu.berkeley.cs.amplab.carat.android.sampling.SamplingLibrary;
 import edu.berkeley.cs.amplab.carat.android.storage.CaratSampleDB;
+import edu.berkeley.cs.amplab.carat.android.storage.StoreOnSDCard;
 import edu.berkeley.cs.amplab.carat.thrift.Sample;
 
 /**
@@ -68,6 +69,7 @@ public class SampleSender {
                             while (tries < 2) {
                                 try {
                                     int success = app.c.uploadSamples(map.values());
+                                    StoreOnSDCard.writeSamples(c, map.values());
     
                                     tries = 2;
                                     // FlurryAgent.logEvent("UploadSamples");
