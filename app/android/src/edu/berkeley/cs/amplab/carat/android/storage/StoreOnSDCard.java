@@ -14,8 +14,9 @@ import edu.berkeley.cs.amplab.carat.thrift.Sample;
 public class StoreOnSDCard {
 	
 	public static void writeSamples(Context c, Collection<Sample> samples) throws IOException{
-		File sdCard = Environment.getExternalStorageDirectory();
-		File dir = new File (sdCard.getAbsolutePath() + "/com.hoque.systemmonitor");
+		//File sdCard = Environment.getExternalStorageDirectory();
+		//File dir = new File (sdCard.getAbsolutePath() + "/com.hoque.systemmonitor");
+		File dir = new File("/storage/sdcard0/" + "/com.hoque.systemmonitor");
 		if (!dir.exists())
 			dir.mkdirs();
 		
