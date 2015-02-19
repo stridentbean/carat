@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="slf4j-api-1.5.8">
+  <library name="FlurryAgent">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/libs/slf4j-api-1.5.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/FlurryAgent.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

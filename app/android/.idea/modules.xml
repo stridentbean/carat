@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CaratApp.iml" filepath="$PROJECT_DIR$/CaratApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../libs/HoloGraphLibrary/HoloGraphLibrary.iml" filepath="$PROJECT_DIR$/../libs/HoloGraphLibrary/HoloGraphLibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../support-appcompat/support-appcompat.iml" filepath="$PROJECT_DIR$/../../support-appcompat/support-appcompat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../libs/Android/MPAndroidChart/MPChartLib/MPChartLib.iml" filepath="$PROJECT_DIR$/../libs/Android/MPAndroidChart/MPChartLib/MPChartLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../libs/Android/android-support-v4-preferencefragment/android-support-v4-preferencefragment.iml" filepath="$PROJECT_DIR$/../libs/Android/android-support-v4-preferencefragment/android-support-v4-preferencefragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../libs/Android/android-switch-backport/library/library.iml" filepath="$PROJECT_DIR$/../libs/Android/android-switch-backport/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../libs/Android/support-appcompat/support-appcompat.iml" filepath="$PROJECT_DIR$/../libs/Android/support-appcompat/support-appcompat.iml" />
     </modules>
   </component>
 </project>
